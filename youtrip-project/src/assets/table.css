@@ -1,0 +1,232 @@
+*{
+  font-size: 14px;
+  font-family:  "微软雅黑";
+  color: #434A54;
+}
+.el-table_1_column_6 .cell img {
+  width: 60px !important;
+  margin-top: 3px;
+}
+.el-table--border td, .el-table--border th, .el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed{
+  border-right: none;
+  text-align: center;
+  padding:2px 0;
+}
+.el-select{
+  position: absolute;
+  top: 255px;
+  left: 280px;
+  width: 150px !important;
+  height: 40px;
+}
+.el-pagination .el-input__suffix{
+  right: -50px;
+}
+tr{
+  height: 50px;
+
+  line-height: 50px;
+}
+.el-table--border{
+  border: none;
+}
+.el-table--border::after{
+  width: 0;
+  height:0;
+}
+.el-pagination__total{
+  position: absolute;
+  top: 255px;
+  right: 50px;
+}
+.el-pagination button, .el-pagination span:not([class*=suffix]){
+  font-size: 15px;
+}
+.el-table{
+  margin-top: 2%;
+  margin-bottom: 30px;
+}
+[class*=" el-icon-"], [class^=el-icon-]{
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+[class*=" el-icon-"]:first-child, [class^=el-icon-]:first-child{
+  margin-left: 0;
+}
+.el-row{
+  margin-top: 3%;
+}
+.el-pagination .el-select .el-input .el-input__inner{
+  padding: 0 25px;
+  height: 35px;
+  width: 150px;
+}
+.el-input .el-input--suffix{
+  width: 150px;
+}
+.el-col-2,.el-col-3{
+  width: 5%;
+  font-size: 15px;
+}
+.el-form .demo-form-inline .el-form--inline{
+  margin-top: 2%;
+  height: 50px;
+}
+form{
+  margin-top: 2%;
+  height: 40px;
+  padding: 0;
+}
+form .el-form-item{
+  float: left;
+  margin-left: 3%;
+}
+form .el-form-item:first-child{
+  margin-left: 18%;
+}
+form .el-form-item:last-child{
+  margin-left: 0;
+  margin-top: 2px;
+}
+.el-form-item__content .el-select{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 240px !important;
+  height: 40px;
+  border-radius: 3px;
+}
+.el-select-dropdown .el-popper{
+  width: 200px !important;
+  height: 40px;
+  border-radius: 3px;
+}
+.el-form-item__content{
+  line-height: 30px;
+}
+.el-button{
+  padding: 8px 15px;
+  border-radius: 3px;
+  border: none;
+}
+.el-button+ .el-button{
+  margin-top: 2%;
+}
+.btnDiv{
+  padding: 0;
+  width: 230px;
+  height: 40px;
+  margin-top: 2.5%;
+}
+.el-button--primary span{
+  font-size: 15px;
+  color: white !important;
+}
+.el-button span{
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: white !important;
+}
+.el-icon-search,.el-icon-plus,span .el-icon-delete{
+  color: white !important;
+  font-size: 16px;
+}
+.el-icon-delete{
+  color: #f56c6c;
+}
+.el-icon-edit{
+  color:#409EFF ;
+}
+.formDiv form .el-form-item{
+  margin-left: 4% !important;
+  width: 40%;
+  border-radius: 3px;
+}
+.formDiv1 form .el-form-item{
+  margin-left: 4% !important;
+  width: 40%;
+  border-radius: 3px;
+}
+.el-form-item .el-form-item__content .el-select{
+  width: 100% !important;
+}
+.el-form-item .el-form-item__content .el-select .el-input .el-input__inner{
+  text-align: center;
+}
+.el-form-item .el-form-item__content .el-input .el-input__inner{
+  text-align: center;
+}
+.el-select-dropdown__item{
+  text-align: center;
+}
+
+.el-dialog__wrapper .el-dialog{
+  width: 750px;
+  /*height: 620px !important;*/
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+.el-dialog__header{
+  background-color: #f56c6c;
+  padding: 10px 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: left;
+}
+.el-dialog .el-dialog__headerbtn{
+  top: 13px;
+}
+.el-icon-close{
+  color: white !important;
+  font-size: 18px !important;
+}
+.el-dialog .el-dialog__title{
+  top: 13px;
+  text-align: left;
+  color: white !important;
+}
+.el-dialog{
+  margin: 0 auto 50px;
+}
+.el-dialog__body{
+  padding-top: 30px;
+}
+.el-dialog__footer{
+  text-align:left;
+  margin-left: 17.5%;
+}
+.el-dialog__footer .dialog-footer button{
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+}
+.el-dialog__footer .dialog-footer .el-button--default{
+  background-color:#b6bec9;
+  margin-left: 10%;
+}
+
+.avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.avatar-uploader .el-upload:hover {
+  border-color: #409EFF;
+}
+.avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d !important;
+  width: 178px;
+  height: 160px;
+  font-weight: 400;
+  line-height: 160px;
+  text-align: center;
+}
+.avatar {
+  width: 178px;
+  height: 178px;
+  display: block;
+}
